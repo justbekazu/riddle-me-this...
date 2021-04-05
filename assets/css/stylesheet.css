@@ -1,0 +1,283 @@
+body {
+  background-color:#fadadd;
+}
+
+/* Main container */
+table {
+  width: 400px;
+  height: 600px; 
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* Main Images */
+.tall380 {
+  max-height: 270px;
+  width: 380px;
+}
+
+#TR01 {
+  font-family: 'Anton', sans-serif;
+  height: 100px;
+  background-color: #d16491;
+  color: white;
+  vertical-align: top;
+}
+
+#TR01 h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+  line-height: 8px;
+  letter-spacing: 1px;
+}
+
+#TR01 h3 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+#TR02 {
+  background-color: #d16491;
+  height: 25px;
+}
+
+#TR02 p {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
+#TR03 {
+  background-color: #e889ae;
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+  font-size: x-large;
+  letter-spacing: 1px;
+  height: 350px;
+  overflow: hidden;
+}
+
+#TR04 {
+  background-color: #e889ae;
+  height: 100px;
+}
+
+#TR05 {
+  background-color: #e889ae;
+  height: 25px;
+}
+
+#TR05 p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Anton', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#TR06 {
+  background-color: #e889ae;
+  height: 225px;
+}
+
+#TR06 ol li {
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#titlebar {
+  text-align: left;
+}
+
+#titlebar h3 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+#playerform select {
+  background-color: #e9a46a;
+}
+
+#playerform select option {
+  background-color: #e9a46a;
+}
+
+button {
+  background-color: #e9a46a;
+  border:#e68884;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 100px;
+  margin: auto 10px;
+  box-shadow: 3px 3px 10px black;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
+.answer {
+  background-color: #e1a7c0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 3px 3px 10px black;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Toggle classes to show and hide some buttons */
+
+.action {
+  background-color: #e9a46a;
+  border:#e68884;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 100px;
+  margin: auto 10px;
+  box-shadow: 3px 3px 10px black;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
+.hidden {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.playerform {
+  display: block;
+  width: 250px;
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  background-color: #e9a46a;
+  border:#e68884;
+  border-style: solid;
+}
+
+#question p {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  color: blue;
+}
+
+/* For the HURRY HURRY HURRY! message */
+
+.blink {
+  animation: blinker 1s linear infinite;
+  font-family: 'Anton', sans-serif;
+  font-size: large;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Toggle classes to show and hide some buttons */
+
+.grid-padding-x>.cell {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.rulestitle {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size:medium;
+  letter-spacing: 1px;
+}
+
+#notsure {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size:20px;
+  letter-spacing: 1px;
+}
+
+#logo {
+  text-align: center;
+  background-color: #d16491;
+}
+
+#rangers {
+  padding: auto;
+  margin-top: 20px;
+}
+
+#welcome, #lets #footer {
+text-align: center;
+background-color: #e889ae ;
+font-family: 'Anton', sans-serif;
+color: white;
+}
+
+#footer {
+  padding-top: 40px;
+  text-align: center;
+  background-color: #d16491;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Anton', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#warning-button {
+  background-color: #e9a46a;
+  border:#e68884;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 350px;
+  margin: auto 10px;
+  box-shadow: 3px 3px 10px black;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.card-section h4 {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: x-large;
+  letter-spacing: 1px;
+}
+
+.card-section p {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size:medium;
+  letter-spacing: 1px;
+}
